@@ -35,17 +35,17 @@ To run the project, open each module and execute them using `mvn compile exec:ja
 
 ClassServer command line arguments:
 
-- `-debug` (optional): mvn compile exec:java -Dexec.args="-debug"
+- `-debug` (optional): `mvn compile exec:java -Dexec.args="-debug"`
 
 Student command line arguments:
 
-- `studentId studentName`: mvn compile exec:java -Dexec.args="studentId studentName"~
+- `studentId studentName`: `mvn compile exec:java -Dexec.args="studentId studentName"`
 
 Admin command line arguments:
 
-- `(no arguments)`: mvn compile exec:java
+- `(no arguments)`: `mvn compile exec:java`
 
 Professor command line arguments:
 
--``(no arguments)`: mvn compile exec:java
+- `(no arguments)`: `mvn compile exec:java`
 
